@@ -35,12 +35,6 @@ The dataset includes features such as age, sex, smoking habits, blood pressure, 
 - xgboost  
 - matplotlib, seaborn
 
-## How to Run
-1. Clone the repository  
-2. Install dependencies using `pip install -r requirements.txt`  
-3. Run the main script (e.g., `python heart_disease_prediction.py`)  
-4. Analyze the output metrics and confusion matrix
-
 ## Notes
 - The dataset is imbalanced, with fewer positive cases of heart disease. Handling this imbalance is critical for improving model sensitivity to the minority class.  
 - `scale_pos_weight` helps XGBoost focus more on correctly classifying the minority class.
